@@ -1,6 +1,6 @@
 {
   "name": "Example_Botfolio_Chatbot",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "Example botfolio chatbot",
   "main": "app.js",
   "author": {

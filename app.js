@@ -13,6 +13,8 @@ app.get('/', function (req, res) {
 
 
 var botfolioChatBot = require("botfolio-chatbot");
+
+///Get your API_TOKEN from developers.botfol.io
 var service = new botfolioChatBot("API_TOKEN");
 
 
