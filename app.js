@@ -16,8 +16,14 @@ var botfolioChatBot = require("botfolio-chatbot");
 var service = new botfolioChatBot("API_TOKEN");
 
 
-app.post('/webhook/', function (req, res) {
+app.post('/webhook/example_chatbot', function (req, res) {
     
+    //If the request is not from botfolio server, reject it
+    if (req.query['token'] != "API_TOKEN") {
+        res.sendStatus(403);
+        return;
+    }
+
     var message = req.body;
     
     if (!message) {
