@@ -1,0 +1,15 @@
+{
+  "name": "Example_Botfolio_Chatbot",
+  "version": "0.0.0",
+  "description": "Example botfolio chatbot",
+  "main": "app.js",
+  "author": {
+    "name": "botfolio Development team",
+    "email": "info@botfol.io"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "botfolio-chatbot": "^1.0.2",
+    "express": "^4.14.0"
+  }
+}
